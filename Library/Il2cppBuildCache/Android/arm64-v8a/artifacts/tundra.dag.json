@@ -1,0 +1,138 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1
+      ],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "Il2Cpp /home/shubham/TouchDown/Library/Il2cppBuildCache/Android/arm64-v8a/Native/arm64-v8a/libil2cpp.so",
+      "Action": "\"/home/shubham/Unity/Hub/Editor/2020.3.30f1/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --compile-cpp --libil2cpp-static --platform=\"Android\" --architecture=\"ARM64\" --configuration=\"Release\" --outputpath=\"/home/shubham/TouchDown/Library/Il2cppBuildCache/Android/arm64-v8a/Native/arm64-v8a/libil2cpp.so\" --cachedirectory=\"/home/shubham/TouchDown/Assets/../Library/il2cpp_android_arm64-v8a/il2cpp_cache\" --additional-include-directories=\"/home/shubham/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/bdwgc/include\" --additional-include-directories=\"/home/shubham/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/libil2cpp/include\" --baselib-directory=\"/home/shubham/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/arm64-v8a\" --avoid-dynamic-library-copy --tool-chain-path=\"/home/shubham/Downloads/android-ndk-r19-linux-x86_64/android-ndk-r19\" --additional-cpp=\"/home/shubham/TouchDown/Library/Il2cppBuildCache/Android/arm64-v8a/additionalCppFiles/UnityAdsInitializationListener.h\" --additional-cpp=\"/home/shubham/TouchDown/Library/Il2cppBuildCache/Android/arm64-v8a/additionalCppFiles/UnityAdsLoadListener.h\" --additional-cpp=\"/home/shubham/TouchDown/Library/Il2cppBuildCache/Android/arm64-v8a/additionalCppFiles/UnityAdsShowListener.h\" --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=\"/home/shubham/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Tools/MapFileParser/MapFileParser\" --directory=\"/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed\" --generatedcppdir=\"/home/shubham/TouchDown/Library/Il2cppBuildCache/Android/arm64-v8a/il2cppOutput\" --stats-output-dir=\"/home/shubham/TouchDown/Library/Il2cppBuildCache/Android/arm64-v8a/il2cppStats\"",
+      "Inputs": [
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/Mono.Security.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/System.Configuration.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/System.Core.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/System.Xml.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/System.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AndroidJNIModule.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AnimationModule.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AudioModule.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.CoreModule.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.GridModule.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TerrainModule.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TilemapModule.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UI.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UIModule.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.dll",
+        "/home/shubham/TouchDown/Temp/StagingArea/assets/bin/Data/Managed/mscorlib.dll",
+        "/home/shubham/TouchDown/Library/Il2cppBuildCache/Android/arm64-v8a/additionalCppFiles/UnityAdsInitializationListener.h",
+        "/home/shubham/TouchDown/Library/Il2cppBuildCache/Android/arm64-v8a/additionalCppFiles/UnityAdsLoadListener.h",
+        "/home/shubham/TouchDown/Library/Il2cppBuildCache/Android/arm64-v8a/additionalCppFiles/UnityAdsShowListener.h",
+        "/home/shubham/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Tools/MapFileParser/MapFileParser",
+        "/home/shubham/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/arm64-v8a/baselib.a",
+        "/home/shubham/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/arm64-v8a/libunityruntime.a",
+        "\"/home/shubham/Unity/Hub/Editor/2020.3.30f1/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp\""
+      ],
+      "Outputs": [
+        "/home/shubham/TouchDown/Library/Il2cppBuildCache/Android/arm64-v8a/Native/arm64-v8a/libil2cpp.so"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": false,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 1
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "../../../../../Library"
+    },
+    {
+      "File": "../../../../../Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/bdwgc/include"
+    },
+    {
+      "File": "../../../../../Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/libil2cpp/include"
+    },
+    {
+      "File": "../../../../../Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/arm64-v8a"
+    },
+    {
+      "File": "../../../../Temp/StagingArea/assets/bin/Data/Managed"
+    },
+    {
+      "File": "artifacts/buildprogram/tundra_buildprogram.dag.json"
+    },
+    {
+      "File": "il2cpp_settings.json"
+    },
+    {
+      "File": "unitylinker_settings.json"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "../../../../Temp/StagingArea/assets/bin/Data/Managed"
+    },
+    {
+      "Path": "../../../../../Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/arm64-v8a",
+      "Recurse": 1
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".txt",
+    ".c",
+    ".cpp",
+    ".h",
+    ".cs",
+    ".hpp"
+  ],
+  "StructuredLogFileName": "artifacts/tundra.log.json",
+  "StateFileName": "artifacts/TundraBuildState.state",
+  "StateFileNameTmp": "artifacts/TundraBuildState.state.tmp",
+  "ScanCacheFileName": "artifacts/tundra.scancache",
+  "ScanCacheFileNameTmp": "artifacts/tundra.scancache.tmp",
+  "DigestCacheFileName": "artifacts/tundra.digestcache",
+  "DigestCacheFileNameTmp": "artifacts/tundra.digestcache.tmp",
+  "DirectoriesCausingImplicitDependencies": [],
+        "NamedNodes": {
+          "all_tundra_nodes": 0
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "artifacts/tundra.dag.json",
+  "BuildTitle": "Bee",
+  "RelativePathToRoot": ".."
+}
